@@ -6,17 +6,83 @@
 	
 		<meta charset="UTF-8">
 		<meta name="viewport" content= "width=device-width,initial-scale=1.0">
-		<tittle> Exemplo HTML </tittle>
+		<tittle> Página básica </tittle>
 	
 	<body> 
 	
-	<h1>Cabeçalho - 1 </h1>
-	<h2>Cabeçalho - 2 </h2>
-	<h3>Cabeçalho - 3 </h3>
-	<h4>Cabeçalho - 4 </h4>
-	<h5>Cabeçalho - 5 </h5>
-	<h6>Cabeçalho - 6 </h6>
-	
+	<div class="container">
+		<header class="cabeçalho">
+			<h1 style="text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Minha página</h1>
+			<nav>
+				<ul>
+					<li> <a href="./paginas/help.html" >Help</a></li>
+					<li> <a href="./paginas/about.html" >About</a></li>
+					<li> <a href="#contact" >Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<hr/>
+		<section class="conteudo">
+		<div id="help">
+			<h2>HELP </h2>
+			<p> Help - Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui, excepturi perspiciatis laboriosam nulla dolores quibusdam voluptatibus laudantium consectetur! Facilis autem fuga molestias quae voluptatum velit sapiente ipsam iusto eum consectetur maiores expedita possimus eveniet architecto reprehenderit illum beatae, qui, inventore laboriosam minima blanditiis accusantium ex cumque! Et quibusdam asperiores officia itaque, consectetur quidem, mollitia magnam alias reprehenderit exercitationem quia minima quasi tenetur animi voluptate eveniet optio accusantium atque eum nobis. Eligendi velit magni debitis aut laborum aliquid, repudiandae veritatis! Reprehenderit molestias omnis autem libero id corrupti qui labore! Adipisci architecto laborum magnam beatae reiciendis repudiandae expedita quasi quia doloremque voluptas! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, natus porro. Soluta magnam commodi aliquam ea, delectus ad tempore modi. Aperiam placeat delectus officiis, dignissimos quaerat voluptatum doloribus Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates amet quia mollitia doloremque qui. Veniam praesentium est quod quisquam odio necessitatibus similique magnam, perspiciatis quam, ullam ea quae ad temporibus, ratione corrupti? Sunt nisi illo pariatur, temporibus voluptates vero odit ullam, delectus dignissimos earum enim autem iure optio ipsum, magnam dolorem aperiam numquam quam voluptas nam culpa reprehenderit officiis. Tenetur minus ducimus iure quas, facilis quis eos ipsam doloribus perspiciatis dolor soluta eveniet facere est. Consectetur ex commodi labore explicabo doloremque deleniti error officia vitae quo tenetur et mollitia minima iste omnis odio suscipit quia quidem, possimus quisquam maxime esse consequatur dolorem aperiam! Iste aspernatur voluptates repellendus blanditiis eveniet quod consectetur ipsam delectus nemo? Voluptate, doloribus. Doloribus illum repudiandae nobis aut ipsum architecto tempore at repellendus harum unde? Quis eum, expedita laborum corrupti commodi placeat dolorum quam consectetur natus minima officiis eius tempora quasi architecto earum aspernatur hic rem provident quos at voluptatem? Harum cum eveniet cupiditate quis minima reiciendis hic rem assumenda voluptates temporibus. Doloremque temporibus iure beatae laboriosam voluptatibus fuga delectus, reiciendis, excepturi facere hic consequuntur atque earum distinctio nobis cupiditate maiores! Id soluta accusantium recusandae dolores quos, et ullam voluptas dolor quisquam nulla quam illo hic saepe in eaque veritatis deleniti impedit minus ex mollitia! Quam animi minus similique cum. Non minus tenetur fuga aut saepe, ex exercitationem dignissimos eum. Possimus natus non praesentium quas mollitia amet aut sit voluptate dolor? Repudiandae temporibus debitis deleniti doloremque suscipit, assumenda quia? Rerum iure eaque quisquam! Accusantium quaerat blanditiis, dignissimos aspernatur quae modi. Accusantium, repudiandae qui. Autem dolor ipsa velit. Omnis ea quisquam sit hic nam, quod id. Quam tenetur fugit ullam quia ab totam illo! Veniam perspiciatis libero quo exercitationem ut. Soluta consectetur iure ratione libero non suscipit cumque officia error exercitationem! Provident minus ipsum qui esse. Atque error dolores neque quaerat molestias voluptatem suscipit mollitia sapiente doloremque, eveniet iusto rem minima id cumque ipsum ut, laborum iste, esse nihil magni laudantium ad commodi voluptatibus! Possimus, ex. </p>
+			<a href="#">Mais...</a>
+		
+		</div>
+		<div id="about">
+			<h2>ABOUT</h2>
+			<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur eos magnam porro nulla commodi ut repellendus ex numquam magni! Suscipit.</p>
+			<a href="#">Mais...</a>
+		</div>
+		<div id="contact">
+			<h2> CONTACT</h2>
+			<form>
+				<fieldset>
+					<legend> Customer Data</legend>
+				
+					<div>
+						<label for="idNm">Nome: </label>
+						<input type="text" 
+						name="txtNm" 
+						id="idNm" 
+						placeholder="Digite seu Nome"/>
+					</div>
+				
+				<div>
+					<label for="idEmail">Email: </label>
+					<input 
+					type="email" 
+					name="txtEmail" 
+					id="idEmail" 
+					placeholder="Digite seu Email"/>
+				</div>
+				<div>
+
+					<button type="button">Send</button>
+
+				</div>
+			</fieldset>
+			
+			
+			</fieldset>
+				</form>
+			</div>
+		</section>
+		<footer>
+			<nav>
+				<ul>
+					<li> <a href="https://www.fiap.com.br" target="_blank">FIAP</a></li>
+					<li> <a href="https://www.google.com" target="_blank">Google</a></li>
+					<li> <a href="https://github.com"target="_blank">Github</a></li>
+				</ul>
+			</nav>
+
+
+			<p>Todos os direitos reservados &copy; - Minha Página 2024</p>
+
+
+		</footer>
+	</div>
 	
 	
 	
