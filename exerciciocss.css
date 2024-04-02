@@ -15,3 +15,5 @@ form{border-style: solid 1px; color: grey; padding: 10px;}
 p{color: green;}
 
 button{color: white; background-color: blue;}
+
+footer{ border-top: solid red 2px;}
